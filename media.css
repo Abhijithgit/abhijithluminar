@@ -1,0 +1,22 @@
+div{
+    width: 300px;
+    background-color: blue;
+}
+p{
+    color:white ;
+    font-size: small;
+}
+
+
+@media(orientation:landscape){
+    div{
+        background-color: blueviolet;
+    }
+    p{
+        color: yellow;
+        font-size: x-large;
+    }
+    span{
+        display: none;
+    }
+}
